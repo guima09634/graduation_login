@@ -1,0 +1,10 @@
+html, body {
+  letter-spacing: .5px;
+  font-family: 'Helvetica Neue', 'Helvetica', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'SimSun', 'sans-serif';
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #444444;
+  font-size: 14px;
+  background: #fff
+}
