@@ -76,29 +76,29 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        loginForm: {
-          account:'',
-          password:''
-        }, //用户输入的账号密码;
-        dialogFormVisible:false,//注册对话框是否打开标识;
-        registeredForm: {
-          userId:'',
-          netName:'',
-          mode:'',
-          phone:'',
-          email:'',
-          password:''
-        },
-        registeredMode: [
-          {label:'手机注册 (推荐)', value:'phone'},
-          {label:'邮箱注册 (不推荐)',  value:'email'}
-        ]
-      }
+export default {
+  data() {
+    return {
+      loginForm: {
+        account:'',
+        password:''
+      }, //用户输入的账号密码;
+      dialogFormVisible:false,//注册对话框是否打开标识;
+      registeredForm: {
+        userId:'',
+        netName:'',
+        mode:'',
+        phone:'',
+        email:'',
+        password:''
+      },
+      registeredMode: [
+        {label:'手机注册 (推荐)', value:'phone'},
+        {label:'邮箱注册 (不推荐)',  value:'email'}
+      ]
     }
   }
+}
 </script>
 
 
