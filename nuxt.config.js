@@ -18,7 +18,18 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
 
-  plugins: [{src:'~plugins/element-ui', ssr: false}],
+  modules: [
+    '@nuxtjs/axios',
+  ],
+
+  axios:{
+    prefix: '/api/',
+    proxy:true
+  },
+
+  plugins: [
+    {src:'~plugins/element-ui', ssr: false},
+    {src:'~/plugins/axios/axios'}],
 
   css: [
     'element-ui/lib/theme-chalk/index.css',
